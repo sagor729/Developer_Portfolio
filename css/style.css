@@ -9,6 +9,7 @@ body {
     background: url(../images/top-banner.png);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
 .document h1 {
@@ -36,4 +37,12 @@ body {
     color: white;
     font-weight: 700;
     font-size: 15px;
+}
+
+.dreambig {
+    display: flex;
+    background: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
 }
