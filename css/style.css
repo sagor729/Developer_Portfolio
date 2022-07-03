@@ -7,7 +7,6 @@ body {
 .firstsection {
     display: flex;
     background: url(../images/top-banner.png);
-    background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 100px;
 }
@@ -45,4 +44,50 @@ body {
     background-repeat: no-repeat;
     background-position: right;
     margin-bottom: 100px;
+}
+
+.experience {
+    background: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience h1 {
+    font-size: 50px;
+}
+
+.expecard {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.orange {
+    color: orange;
+}
+
+.experience_item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 7px 40px grey;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.experience_item h1 {
+    font-size: 40px;
+}
+
+#Full_stack_web_developer {
+    border-left: 7px solid tomato;
+}
+
+#Baby_web_developer {
+    border-left: 7px solid blue;
+}
+
+footer {
+    color: rgb(100, 100, 100);
+    text-align: center;
+    margin-bottom: 20px;
 }
